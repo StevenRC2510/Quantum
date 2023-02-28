@@ -1,0 +1,32 @@
+@keyframes egg-girando {
+  from {
+    transform: rotate3d(0, 1, 0, 40deg);
+  }
+  to {
+    transform: rotate3d(0, 1, 0, -40deg);
+  }
+}
+
+@-webkit-keyframes egg-girando {
+  from {
+    -webkit-transform: rotate3d(0, 1, 0, 40deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 1, 0, -40deg);
+  }
+}
+@-moz-keyframes egg-girando {
+  from {
+    -moz-transform: rotate3d(0, 1, 0, 40deg);
+  }
+  to {
+    -moz-transform: rotate3d(0, 1, 0, -40deg);
+  }
+}
+
+.rotate {
+  animation: 3s linear 1s infinite running egg-girando;
+  -webkit-animation:  3s linear 1s infinite running egg-girando;
+  -moz-animation:  3s linear 1s infinite running egg-girando;
+  animation-delay: 1s;
+}

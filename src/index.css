@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NBArchitek";
+  font-style: normal;
+  src: local("Archia"),
+    url("./assets/fonts/Archia/NBArchitektStd-Regular.otf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "NBArchitek";
+  font-style: normal;
+  src: local("Archia"),
+    url("./assets/fonts/Archia/NBArchitektStd-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "NBArchitek";
+  font-weight: bold;
+  src: local("Archia"),
+    url("./assets/fonts/Archia/NBArchitektStd-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "NBArchitek";
+  font-weight: lighter;
+  src: local("Archia"),
+    url("./assets/fonts/Archia/NBArchitektStd-Light.otf") format("truetype");
+}
+
+:root {
+  min-height: 100vh;
+  font-family: "NBArchitek";
+  background-color: black;
+}
+
+body {
+  overflow: scroll;
+
+}
